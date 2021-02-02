@@ -38,4 +38,7 @@ def turn(board)
 end
 
 def 
-  while 
+  while turn(board) < 9
+  turn(board) += 1
+end
+  
