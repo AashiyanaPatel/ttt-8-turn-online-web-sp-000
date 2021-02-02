@@ -38,6 +38,6 @@ def turn(board)
 end
 
 def input_to_index(user_input)
-   user_input.to_i == 5
+   user_input.to_i - 4
 end
   
